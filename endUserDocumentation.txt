@@ -1,14 +1,18 @@
 End-User Documentation: Final Project
-12:05am – A copy of the original template (Template.xlsx) is made and titled WeatherData.xlsx
-WeatherData.xlsx is where the hourly XML data is written to
-Template.xlsx stays intact to be used again the next day at 12:05am
-30th minute of every hour – The Python code (script.py) is compiled and ran
-Uses the copy of the original template (WeatherData.xlsx)
-Downloads XML data
-Extracts and parses the XML data
-Adds data to WeatherData.xlsx
-Saves WeatherData.xlsx
-11:45pm – Uses mutt to append WeatherData.xlsx to an email and sends it
-11:55pm – Removes WeatherData.xlsx
+
+12:05am â€“ A copy of the original template (Template.xlsx) is made and titled WeatherData.xlsx
+- WeatherData.xlsx is where the hourly XML data is written to
+- Template.xlsx stays intact to be used again the next day at 12:05am
+
+30th minute of every hour â€“ The Python code (script.py) is compiled and ran
+- Uses the copy of the original template (WeatherData.xlsx)
+- Downloads XML data
+- Extracts and parses the XML data
+- Adds data to WeatherData.xlsx
+- Saves WeatherData.xlsx
+
+11:45pm â€“ Uses mutt to append WeatherData.xlsx to an email and sends it
+
+11:55pm â€“ Removes WeatherData.xlsx
 
 Once the crontab automation is completed, the user does not have to do anything. Every hour of each day at the 30th minute, XML data is downloaded from JFK, extracted, and parsed to include solely the observation time the data is from and the temperature recorded (in Celsius). It is then added to WeatherData.xlsx. At 11:45pm of each day, WeatherData.xlsx, which should contain a header row, followed by 24 rows of data (due to there being 24 hours in each day), is sent to an email address using mutt. At 11:55pm, WeatherData.xlsx is deleted so that when the original template, Template.xlsx, is copied at 12:05am of the next day, an entirely new entity is created.  
