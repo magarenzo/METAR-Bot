@@ -1,5 +1,5 @@
 # weather-report-automation
-Download, parse, and write XML data to a spreadsheet
+Download, parse and write XML data to a spreadsheet
 
 Python script that downloads and parses data in XML format. Data can then be written to a spreadsheet.
 
