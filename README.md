@@ -1,5 +1,5 @@
 # weather-report-automation
-__Download, parse and write XML data to a spreadsheet__
+Download, parse and write XML data to a spreadsheet
 
 ---
 
