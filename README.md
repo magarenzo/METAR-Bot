@@ -11,4 +11,4 @@ This system was specifically made to download the latest weather report from JFK
 
 ---
 
-Created as a final project for CSC271.
+Created as a final project for CSC271 (Software I: Utilities and Internals).
