@@ -1,0 +1,7 @@
+15 0 * * * cp ./Template.xlsx ./WeatherData.xlsx
+
+30 * * * * python ./script.py
+
+45 23 * * * mutt -s "Subject" email@domain.com -a ./WeatherData.xlsx
+
+55 23 * * * rm ./WeatherData.xlsx
