@@ -1,16 +1,12 @@
 # weather-report-automation
-Download, parse and write XML data to a spreadsheet
+Download, parse and write XML data to a spreadsheet using Python
 
 ---
 
-`script.py` downloads and parses data in XML format. Data can then be written to a spreadsheet.
+<i>script.py</i> downloads the data and parses it to extract observation time and temperature in Celsius. After parsed, the temperature reading of each hour within a single day is added to a spreadsheet. System creates one spreadsheet for each day it is running.
 
-`crontab.txt` provides an example of how the automation can be set up.
-
----
-
-This system was specifically made to download the latest weather report from JFK airport once an hour in XML format. Python script downloads the data and parses it to extract observation time and temperature in Celsius. After parsed, the temperature reading of each hour within a single day is added to a spreadsheet. System creates one spreadsheet for each day it is running. [Crontab](http://crontab.org/) used for scheduling all automation.
+I use [Crontab](http://crontab.org/) for scheduling daily automation. <i>crontab.txt</i> provides an example of how this automation can be set up.
 
 ---
 
-Created as a final project for CSC271 (Software I: Utilities and Internals).
+Created for a final project assignment for CSC271 (Software I: Utilities and Internals).
