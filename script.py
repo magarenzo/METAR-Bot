@@ -7,8 +7,10 @@ import urllib2
 import openpyxl
 from openpyxl import Workbook
 
+file = './WeatherData.xlsx'
+
 # Use copy of original template
-wb = openpyxl.load_workbook('./WeatherData.xlsx')
+wb = openpyxl.load_workbook(file)
 ws = wb.active
 
 localtime = time.localtime(time.time())
@@ -22,13 +24,13 @@ data = elementTree.fromstring(body)
 d = data.findall('data')
 
 for i in d:
-        for j in i:
-		hour = dateTime.datetime.now().hour
-		hour += 2
-		cell1 = 'A' + str(hour)
-		cell2 = 'B' + str(hour)
-		ws[cell1] = j.find('observation_time').text
-		ws[cell2] = j.find('temp_c').text
+  for j in i:
+    hour = dateTime.datetime.now().hour
+    hour += 2
+    cell1 = 'A' + str(hour)
+    cell2 = 'B' + str(hour)
+    ws[cell1] = j.find('observation_time').text
+    ws[cell2] = j.find('temp_c').text
 
 # Save copied template
-wb.save('./WeatherData.xlsx')
+wb.save(file)
