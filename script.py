@@ -24,13 +24,13 @@ data = elementTree.fromstring(body)
 d = data.findall('data')
 
 for i in d:
-  for j in i:
-    hour = dateTime.datetime.now().hour
-    hour += 2
-    cell1 = 'A' + str(hour)
-    cell2 = 'B' + str(hour)
-    ws[cell1] = j.find('observation_time').text
-    ws[cell2] = j.find('temp_c').text
+    for j in i:
+        hour = dateTime.datetime.now().hour
+        hour += 2
+        cell1 = 'A' + str(hour)
+        cell2 = 'B' + str(hour)
+        ws[cell1] = j.find('observation_time').text
+        ws[cell2] = j.find('temp_c').text
 
 # Save copied template
 wb.save(file)
