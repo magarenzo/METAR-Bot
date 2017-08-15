@@ -8,7 +8,7 @@ import openpyxl
 from openpyxl import Workbook
 
 # Use copy of original template
-wb = openpyxl.load_workbook('WeatherData.xlsx')
+wb = openpyxl.load_workbook('./WeatherData.xlsx')
 ws = wb.active
 
 localtime = time.localtime(time.time())
@@ -31,4 +31,4 @@ for i in d:
 		ws[cell2] = j.find('temp_c').text
 
 # Save copied template
-wb.save('WeatherData.xlsx')
+wb.save('./WeatherData.xlsx')
