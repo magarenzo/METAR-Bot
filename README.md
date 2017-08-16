@@ -1,10 +1,10 @@
 # weather-report-automation
 
-Download, parse and write XML data to a spreadsheet
+Download, parse and write XML data to a CSV file
 
 ---
 
-<i>script.py</i> downloads the data and parses it to extract observation time and temperature in Celsius. After parsed, the temperature reading of each hour within a single day is added to a spreadsheet. System creates one spreadsheet for each day it is running. I created this script using [urllib2](https://docs.python.org/2/library/urllib2.html) and [OpenPyXL](https://openpyxl.readthedocs.io/en/default/).
+<i>script.py</i> downloads METAR data and parses it to extract observation time and temperature in Celsius. The parsed observation time and temperature readings are then added to a CSV file. I created this script using [Metar](https://packages.debian.org/wheezy/metar).
 
 I use [Crontab](http://crontab.org/) for scheduling daily automation. <i>crontab.txt</i> provides an example of how this automation can be set up.
 
@@ -12,11 +12,23 @@ I use [Crontab](http://crontab.org/) for scheduling daily automation. <i>crontab
 
 <h3>Necessary Installations:</h3>
 
-[`python2`](https://docs.python.org/2/)
+[`python3`](https://docs.python.org/3/)
+
+[`time`](https://docs.python.org/3/library/time.html)
+
+[`datetime`](https://docs.python.org/3/library/datetime.html)
 
 [`urllib2`](https://docs.python.org/2/library/urllib2.html)
 
-[`openpyxl`](https://openpyxl.readthedocs.io/en/default/)
+[`xml`](https://docs.python.org/3/library/xml.html)
+
+[`csv`](https://docs.python.org/3/library/csv.html)
+
+---
+
+<h3>To Do:</h3>
+
+* Clean up parsed data
 
 ---
 
