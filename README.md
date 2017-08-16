@@ -32,4 +32,4 @@ I use [Crontab](http://crontab.org/) for scheduling daily automation. <i>crontab
 
 ---
 
-Created as a final project for CSC271 (Software I: Utilities and Internals).
+This script was originally created as a final project for CSC271 (Software I: Utilities and Internals), but it has undergone changes since then.
