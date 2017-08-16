@@ -12,17 +12,17 @@ I use [Crontab](http://crontab.org/) for scheduling daily automation. <i>crontab
 
 <h3>Necessary Installations:</h3>
 
-[`python3`](https://docs.python.org/3/)
+* [`python3`](https://docs.python.org/3/)
 
-[`time`](https://docs.python.org/3/library/time.html)
+  * [`time`](https://docs.python.org/3/library/time.html)
 
-[`datetime`](https://docs.python.org/3/library/datetime.html)
+  * [`datetime`](https://docs.python.org/3/library/datetime.html)
 
-[`urllib2`](https://docs.python.org/2/library/urllib2.html)
+  * [`urllib2`](https://docs.python.org/2/library/urllib2.html)
 
-[`xml`](https://docs.python.org/3/library/xml.html)
+  * [`xml`](https://docs.python.org/3/library/xml.html)
 
-[`csv`](https://docs.python.org/3/library/csv.html)
+  * [`csv`](https://docs.python.org/3/library/csv.html)
 
 ---
 
@@ -32,4 +32,4 @@ I use [Crontab](http://crontab.org/) for scheduling daily automation. <i>crontab
 
 ---
 
-Created for a final project assignment for CSC271 (Software I: Utilities and Internals).
+Created as a final project for CSC271 (Software I: Utilities and Internals).
