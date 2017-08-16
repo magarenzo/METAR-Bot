@@ -25,4 +25,3 @@ for i in d:
                 dataWriter = csv.writer(csvfile, delimiter= ' ', quotechar='|', quoting=csv.QUOTE_MINIMAL)
                 dataWriter.writerow(j.find('observation_time').text)
                 dataWriter.writerow(j.find('temp_c').text)
-root@magarenzo:/home/mike/weather-report-automation#
