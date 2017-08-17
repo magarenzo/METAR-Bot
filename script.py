@@ -15,7 +15,7 @@ d = data.findall('data')
 # Append parsed XML data to existing CSV file
 for i in d:
         for j in i:
-                with open('data.csv', 'a') as f:
+                with open('./data.csv', 'a') as f:
                         writer = csv.writer(f, delimiter=' ', quotechar='|')
                         writer.writerow(j.find('observation_time').text)
                         writer.writerow(j.find('temp_c').text)
