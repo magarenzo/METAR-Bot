@@ -10,13 +10,16 @@ I use [Crontab](http://crontab.org/) for scheduling daily automation. <i>crontab
 
 ---
 
+<h3>Output:</h3>
+
+`2 0 1 7 - 0 8 - 1 7 T 1 2 : 5 1 : 0 0 Z`<br>`2 2 . 8`
+
+
+---
+
 <h3>Necessary Installations:</h3>
 
 * [`python3`](https://docs.python.org/3/)
-
-  * [`time`](https://docs.python.org/3/library/time.html)
-
-  * [`datetime`](https://docs.python.org/3/library/datetime.html)
 
   * [`urllib2`](https://docs.python.org/2/library/urllib2.html)
 
