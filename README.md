@@ -1,6 +1,6 @@
 # metar-bot
 
-Download, parse and write XML data from METAR to a CSV file
+Download and parse XML data from METAR and write to a CSV file
 
 ---
 
