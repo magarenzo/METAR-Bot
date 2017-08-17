@@ -1,4 +1,4 @@
-# weather-report-automation
+# metar-bot
 
 Download, parse and write XML data from METAR to a CSV file
 
