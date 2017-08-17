@@ -34,7 +34,7 @@ I use [Crontab](http://crontab.org/) for scheduling daily automation. [Click her
 
 <h3>Crontab:</h3>
 
-`30 * * * * python ./script.py`<br>`45 23 * * * rm ./data.csv`
+`30 * * * * python ./bot.py`<br>`45 23 * * * rm ./data.csv`
 
 ---
 
