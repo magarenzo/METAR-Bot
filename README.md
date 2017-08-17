@@ -12,8 +12,7 @@ I use [Crontab](http://crontab.org/) for scheduling daily automation. <i>crontab
 
 <h3>Output:</h3>
 
-`2 0 1 7 - 0 8 - 1 7 T 1 2 : 5 1 : 0 0 Z`<br>`2 2 . 8`
-
+`d a t e / t i m e , d e g r e e s _ c e l s i u s`<br>`2 0 1 7 - 0 8 - 1 7 - 1 4 : 5 1 : 0 0 , 2 5 . 6`
 
 ---
 
@@ -21,17 +20,21 @@ I use [Crontab](http://crontab.org/) for scheduling daily automation. <i>crontab
 
 * [`python3`](https://docs.python.org/3/)
 
+  * [`os`](https://docs.python.org/3/library/os.html)
+  
+  * [`csv`](https://docs.python.org/3/library/csv.html)
+  
   * [`urllib2`](https://docs.python.org/2/library/urllib2.html)
 
   * [`xml`](https://docs.python.org/3/library/xml.html)
-
-  * [`csv`](https://docs.python.org/3/library/csv.html)
+  
+  * [`re`](https://docs.python.org/3/library/re.html)
 
 ---
 
-<h3>To Do:</h3>
+<h3>Crontab:</h3>
 
-* Clean up parsed data
+`0 * * * * python ./script.py`
 
 ---
 
