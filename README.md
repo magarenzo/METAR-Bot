@@ -6,7 +6,7 @@ Download, parse and write XML data to a CSV file
 
 <i>script.py</i> downloads METAR data in XML format and parses it to extract observation time and temperature in Celsius. The parsed observation time and temperature readings are then added to a CSV file. I created this script using [Metar](https://packages.debian.org/wheezy/metar).
 
-I use [Crontab](http://crontab.org/) for scheduling daily automation. <i>crontab.txt</i> provides an example of how this automation can be set up.
+I use [Crontab](http://crontab.org/) for scheduling daily automation. Scroll down for an example of how this automation can be set up.
 
 ---
 
