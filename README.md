@@ -4,7 +4,7 @@ Download and parse XML data from METAR, write to a CSV file
 
 ---
 
-<i>script.py</i> downloads METAR data from an airport in XML format and parses it to extract observation time and temperature in Celsius. Those parsed readings are then added to a CSV file. I created this script using [Metar](https://packages.debian.org/wheezy/metar).
+<i>script.py</i> downloads METAR data for an airport in XML format and parses it to extract observation time and temperature in Celsius. Those parsed readings are then added to a CSV file. I created this script using [Metar](https://packages.debian.org/wheezy/metar).
 
 I use [Crontab](http://crontab.org/) for scheduling daily automation. [Click here](https://github.com/magarenzo/weather-report-automation/blob/master/README.md#crontab) for an example.
 
