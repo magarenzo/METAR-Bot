@@ -52,4 +52,4 @@ I use [Crontab](http://crontab.org/) for scheduling daily automation. [Click her
 
 ---
 
-This script was originally created as a final project for CSC271 (Software I: Utilities and Internals). It has undergone some changes since then.
+<i>bot.py</i> was originally created as a final project for CSC271 (Software I: Utilities and Internals). It has undergone changes since then.
