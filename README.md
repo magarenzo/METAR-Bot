@@ -19,9 +19,11 @@ I use [Crontab](http://crontab.org/) for scheduling daily automation. [Click her
 <h3>Output:</h3>
 
 <h5><i>bot.py</i>:</h5>
+
 `d a t e / t i m e , d e g r e e s _ c e l s i u s`<br>`2 0 1 7 - 0 8 - 1 7 - 1 4 : 5 1 : 0 0 , 2 5 . 6`
 
 <h5><i>script.py</i>:</h5>
+
 `82.04 degrees Fahrenheit at KJFK`
 
 ---
