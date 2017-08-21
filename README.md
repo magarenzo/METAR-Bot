@@ -10,7 +10,7 @@ Both <i>bot.py</i> and <i>script.py</i> download METAR data for an airport in XM
 
 <i>script.py</i> parses the data to extract station ID and temperature in Celsius. After converting the temperature to Fahrenheit, the readings are printed to standard output.
 
-I created both of these scripts using [Metar](https://packages.debian.org/wheezy/metar).
+I created both of these using [Metar](https://packages.debian.org/wheezy/metar).
 
 I use [Crontab](http://crontab.org/) for scheduling daily automation. [Click here](https://github.com/magarenzo/weather-report-automation/blob/master/README.md#crontab) for an example.
 
@@ -18,7 +18,11 @@ I use [Crontab](http://crontab.org/) for scheduling daily automation. [Click her
 
 <h3>Output:</h3>
 
+<h5><i>bot.py</i>:</h5>
 `d a t e / t i m e , d e g r e e s _ c e l s i u s`<br>`2 0 1 7 - 0 8 - 1 7 - 1 4 : 5 1 : 0 0 , 2 5 . 6`
+
+<h5><i>script.py</i>:</h5>
+`82.04 degrees Fahrenheit at KJFK`
 
 ---
 
@@ -40,7 +44,7 @@ I use [Crontab](http://crontab.org/) for scheduling daily automation. [Click her
 
 <h3>Crontab:</h3>
 
-`30 * * * * python ./bot.py`<br>`45 23 * * * rm ./data.csv`
+`30 * * * * python ./bot.py`<br>`45 23 * * * mv ./data.csv ./recorded_data.csv`
 
 ---
 
