@@ -1,10 +1,10 @@
 # metar-bot
 
-Download and parse XML data from METAR, write to a CSV file or standard output
+Download and parse XML data from METAR
 
 ---
 
-Both <i>bot.py</i> and <i>script.py</i> download METAR data for an airport in XML format and parses it to extract specific data. 
+Both <i>bot.py</i> and <i>script.py</i> download METAR data for an airport in XML format and parses to extract specific data. 
 
 <i>bot.py</i> parses the data to extract observation time and temperature in Celsius. After using simple regular expressions to rid of some unwanted pieces of information, the readings are added to a CSV file. 
 
