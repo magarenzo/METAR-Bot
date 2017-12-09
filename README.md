@@ -6,9 +6,9 @@ Download and parse XML data from METAR
 
 Both <i>bot.py</i> and <i>script.py</i> download METAR data for an airport in XML format and parses to extract specific data. 
 
-<i>bot.py</i> parses the data to extract observation time and temperature in Celsius. After using simple regular expressions to rid of some unwanted pieces of information, the readings are added to a CSV file. 
+[<i>bot.py</i>](https://github.com/magarenzo/metar-bot/blob/master/bot.py) parses the data to extract observation time and temperature in Celsius. After using simple regular expressions to rid of some unwanted pieces of information, the readings are added to a CSV file. 
 
-<i>script.py</i> parses the data to extract station ID and temperature in Celsius. After converting the temperature to Fahrenheit, the readings are printed to standard output.
+[<i>script.py</i>](https://github.com/magarenzo/metar-bot/blob/master/script.py) parses the data to extract station ID and temperature in Celsius. After converting the temperature to Fahrenheit, the readings are printed to standard output.
 
 I created both of these using [Metar](https://packages.debian.org/wheezy/metar).
 
@@ -50,4 +50,4 @@ I use [Crontab](http://crontab.org/) for scheduling daily automation. [Click her
 
 ---
 
-<i>bot.py</i> was originally created as a final project for CSC271 (Software I: Utilities and Internals). It has undergone changes since then.
+This was originally created as a final project for CSC271 (Software I: Utilities and Internals). It has undergone changes since then.
