@@ -1,4 +1,4 @@
-# METAR Bto
+# METAR Bot
 
 Download and parse XML data from METAR
 
