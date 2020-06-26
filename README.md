@@ -42,6 +42,6 @@ I use [Crontab](http://crontab.org/) for scheduling daily automation
 
 ## Owner
 
-* Michael A. Agarenzo
+Michael A. Agarenzo
 
-* This was originally created as a final project for CSC271 (Software I: Utilities and Internals). It has undergone changes since then.
+This was originally created as a final project for CSC271 (Software I: Utilities and Internals) and it has undergone some changes since then
