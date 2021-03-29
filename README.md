@@ -54,6 +54,6 @@ d a t e / t i m e , d e g r e e s _ c e l s i u s`<br>`2 0 1 7 - 0 8 - 1 7 - 1 4
 
 ## Owner
 
-[Michael A. Agarenzo](https://magarenzo.com)
+[Michael A.](https://linkedin.com/in/magarenzo)
 
 This was originally created as a final project for CSC271 (Software I: Utilities and Internals) and it has undergone some changes since then
